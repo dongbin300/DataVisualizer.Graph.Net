@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+
+		<PackageId>DataVisualizer.Graph.Net</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Gaten</Authors>
+		<Company>Erin Wave</Company>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<RepositoryUrl>https://github.com/dongbin300/DataVisualizer.Net</RepositoryUrl>
+		<Description>DataVisualizer.Graph.Net</Description>
+	</PropertyGroup>
+
+</Project>
