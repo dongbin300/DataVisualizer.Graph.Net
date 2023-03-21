@@ -1,2 +1,2 @@
-# DataVisualizer.Graph.Net
-DataVisualizer.Graph.Net
+# DataVisualizer.Net
+DataVisualizer.Net
