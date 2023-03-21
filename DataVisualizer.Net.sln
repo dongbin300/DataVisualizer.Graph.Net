@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataVisualizer.Graph.Net", "DataVisualizer.Graph.Net\DataVisualizer.Graph.Net.csproj", "{CEF82459-CB3F-499E-8595-CB7AD2E5C1F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataVisualizer.Net.Examples", "DataVisualizer.Net.Examples\DataVisualizer.Net.Examples.csproj", "{9278CD01-4EF8-48E3-9AFF-FBA4AF98FD42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CEF82459-CB3F-499E-8595-CB7AD2E5C1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEF82459-CB3F-499E-8595-CB7AD2E5C1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEF82459-CB3F-499E-8595-CB7AD2E5C1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9278CD01-4EF8-48E3-9AFF-FBA4AF98FD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9278CD01-4EF8-48E3-9AFF-FBA4AF98FD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9278CD01-4EF8-48E3-9AFF-FBA4AF98FD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9278CD01-4EF8-48E3-9AFF-FBA4AF98FD42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

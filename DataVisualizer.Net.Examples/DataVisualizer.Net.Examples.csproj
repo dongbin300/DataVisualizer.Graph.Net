@@ -7,4 +7,70 @@
 		<UseWPF>true</UseWPF>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <None Remove="Samples\BtcusdtQuotes\BTCUSDT_2023-03-01.csv" />
+	  <None Remove="Samples\BtcusdtQuotes\BTCUSDT_2023-03-02.csv" />
+	  <None Remove="Samples\BtcusdtQuotes\BTCUSDT_2023-03-03.csv" />
+	  <None Remove="Samples\BtcusdtQuotes\BTCUSDT_2023-03-04.csv" />
+	  <None Remove="Samples\BtcusdtQuotes\BTCUSDT_2023-03-05.csv" />
+	  <None Remove="Samples\BtcusdtQuotes\BTCUSDT_2023-03-06.csv" />
+	  <None Remove="Samples\BtcusdtQuotes\BTCUSDT_2023-03-07.csv" />
+	  <None Remove="Samples\BtcusdtQuotes\BTCUSDT_2023-03-08.csv" />
+	  <None Remove="Samples\BtcusdtQuotes\BTCUSDT_2023-03-09.csv" />
+	  <None Remove="Samples\BtcusdtQuotes\BTCUSDT_2023-03-10.csv" />
+	  <None Remove="Samples\BtcusdtQuotes\BTCUSDT_2023-03-11.csv" />
+	  <None Remove="Samples\BtcusdtQuotes\BTCUSDT_2023-03-12.csv" />
+	  <None Remove="Samples\BtcusdtQuotes\BTCUSDT_2023-03-13.csv" />
+	  <None Remove="Samples\BtcusdtQuotes\BTCUSDT_2023-03-14.csv" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\DataVisualizer.Graph.Net\DataVisualizer.Graph.Net.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Samples\BtcusdtQuotes\BTCUSDT_2023-03-01.csv">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Samples\BtcusdtQuotes\BTCUSDT_2023-03-02.csv">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Samples\BtcusdtQuotes\BTCUSDT_2023-03-03.csv">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Samples\BtcusdtQuotes\BTCUSDT_2023-03-04.csv">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Samples\BtcusdtQuotes\BTCUSDT_2023-03-05.csv">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Samples\BtcusdtQuotes\BTCUSDT_2023-03-06.csv">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Samples\BtcusdtQuotes\BTCUSDT_2023-03-07.csv">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Samples\BtcusdtQuotes\BTCUSDT_2023-03-08.csv">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Samples\BtcusdtQuotes\BTCUSDT_2023-03-09.csv">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Samples\BtcusdtQuotes\BTCUSDT_2023-03-10.csv">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Samples\BtcusdtQuotes\BTCUSDT_2023-03-11.csv">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Samples\BtcusdtQuotes\BTCUSDT_2023-03-12.csv">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Samples\BtcusdtQuotes\BTCUSDT_2023-03-13.csv">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Samples\BtcusdtQuotes\BTCUSDT_2023-03-14.csv">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
 </Project>

@@ -1,17 +1,10 @@
-﻿using System;
+﻿using DataVisualizer.Graph.Net;
+using DataVisualizer.Graph.Net.Models;
+
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace DataVisualizer.Net.Examples
 {
@@ -20,9 +13,41 @@ namespace DataVisualizer.Net.Examples
     /// </summary>
     public partial class MainWindow : Window
     {
+        CandlestickGraph graph = new();
+
         public MainWindow()
         {
             InitializeComponent();
+
+            graph.Quotes = LoadSamples();
+            graph.End = graph.Quotes.Count;
+            Screen.Content = graph;
+        }
+
+        public List<Quote> LoadSamples()
+        {
+            var result = new List<Quote>();
+
+            for(int i = 1; i <= 1; i++)
+            {
+                var data = File.ReadAllLines(@$"Samples\BtcusdtQuotes\BTCUSDT_2023-03-{i:00}.csv");
+                foreach(var d in data)
+                {
+                    var e = d.Split(',');
+                    var quote = new Quote
+                    {
+                        Time = DateTime.Parse(e[0]),
+                        Open = decimal.Parse(e[1]),
+                        High = decimal.Parse(e[2]),
+                        Low = decimal.Parse(e[3]),
+                        Close = decimal.Parse(e[4]),
+                        Volume = decimal.Parse(e[5])
+                    };
+                    result.Add(quote);
+                }
+            }
+
+            return result;
         }
     }
 }
